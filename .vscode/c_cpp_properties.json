@@ -1,0 +1,45 @@
+{
+    // C/C++ 扩展配置文件
+    // 用于配置 IntelliSense、代码补全、语法检查和编译器相关设置
+    "configurations": [
+        {
+            // 配置名称：用于区分不同的平台或编译环境
+            "name": "Win32",
+            
+            // 头文件搜索路径列表
+            // IntelliSense 会在这些路径中查找 #include 的头文件
+            "includePath": [
+                "${workspaceFolder}/**",                      // 工作区内所有文件夹（递归搜索）
+                "D:\\vscode\\eigen\\eigen-3.4.0\\eigen-3.4.0",  // Eigen 数学库头文件路径
+                "D:\\vscode\\KDL\\orocos_cmake\\include"      // KDL 库的头文件路径
+            ],
+            
+            // 预处理器宏定义列表
+            // 这些宏会在代码分析时被自动定义
+            "defines": [
+                "_DEBUG",       // 调试模式标识符
+                "UNICODE",      // 启用 Unicode 字符集支持
+                "_UNICODE"      // Microsoft 特定的 Unicode 标识符
+            ],
+            
+            // 编译器可执行文件的完整路径
+            // 用于 IntelliSense 获取编译器特定的信息和内置宏
+            "compilerPath": "D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe",
+            
+            // C 语言标准版本
+            // 影响 C 代码的语法检查和特性支持
+            "cStandard": "c17",
+            
+            // C++ 语言标准版本
+            // GNU++17 表示支持 GNU 扩展的 C++17 标准
+            "cppStandard": "gnu++17",
+            
+            // IntelliSense 模式
+            // 指定代码分析引擎使用的编译器和平台组合
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    
+    // 配置文件格式版本号
+    "version": 4
+}

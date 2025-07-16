@@ -1,0 +1,2975 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/MinGW/mingw/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/project/cmake_learning/build/CMakeFiles/4.1.0-rc1/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/ar.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/ranlib.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/strip.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/ld.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/nm.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/objdump.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/objcopy.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/readelf.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/dlltool.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/addr2line.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/tapi.com"
+      - "D:/MinGW/mingw/ucrt64/bin/tapi.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/tapi"
+      - "D:/MinGW/mingw/usr/bin/tapi.com"
+      - "D:/MinGW/mingw/usr/bin/tapi.exe"
+      - "D:/MinGW/mingw/usr/bin/tapi"
+      - "D:/vmware/bin/tapi.com"
+      - "D:/vmware/bin/tapi.exe"
+      - "D:/vmware/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "D:/git/Git/cmd/tapi.com"
+      - "D:/git/Git/cmd/tapi.exe"
+      - "D:/git/Git/cmd/tapi"
+      - "D:/cmake/cmake/bin/tapi.com"
+      - "D:/cmake/cmake/bin/tapi.exe"
+      - "D:/cmake/cmake/bin/tapi"
+      - "D:/anaconda/anaconda/tapi.com"
+      - "D:/anaconda/anaconda/tapi.exe"
+      - "D:/anaconda/anaconda/tapi"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/tapi.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/tapi.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/tapi"
+      - "D:/anaconda/anaconda/Library/usr/bin/tapi.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/tapi.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/tapi"
+      - "D:/anaconda/anaconda/Library/bin/tapi.com"
+      - "D:/anaconda/anaconda/Library/bin/tapi.exe"
+      - "D:/anaconda/anaconda/Library/bin/tapi"
+      - "D:/anaconda/anaconda/Scripts/tapi.com"
+      - "D:/anaconda/anaconda/Scripts/tapi.exe"
+      - "D:/anaconda/anaconda/Scripts/tapi"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/vscode/Microsoft VS Code/bin/tapi.com"
+      - "D:/vscode/Microsoft VS Code/bin/tapi.exe"
+      - "D:/vscode/Microsoft VS Code/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.1"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.1.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.1.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.1"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.1.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.1.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.1"
+      - "D:/vmware/bin/gcc-ar-15.1.com"
+      - "D:/vmware/bin/gcc-ar-15.1.exe"
+      - "D:/vmware/bin/gcc-ar-15.1"
+      - "C:/Windows/System32/gcc-ar-15.1.com"
+      - "C:/Windows/System32/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/gcc-ar-15.1"
+      - "C:/Windows/gcc-ar-15.1.com"
+      - "C:/Windows/gcc-ar-15.1.exe"
+      - "C:/Windows/gcc-ar-15.1"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1"
+      - "D:/git/Git/cmd/gcc-ar-15.1.com"
+      - "D:/git/Git/cmd/gcc-ar-15.1.exe"
+      - "D:/git/Git/cmd/gcc-ar-15.1"
+      - "D:/cmake/cmake/bin/gcc-ar-15.1.com"
+      - "D:/cmake/cmake/bin/gcc-ar-15.1.exe"
+      - "D:/cmake/cmake/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.1"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.1.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.1.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.1"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15"
+      - "D:/vmware/bin/gcc-ar-15.com"
+      - "D:/vmware/bin/gcc-ar-15.exe"
+      - "D:/vmware/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "D:/git/Git/cmd/gcc-ar-15.com"
+      - "D:/git/Git/cmd/gcc-ar-15.exe"
+      - "D:/git/Git/cmd/gcc-ar-15"
+      - "D:/cmake/cmake/bin/gcc-ar-15.com"
+      - "D:/cmake/cmake/bin/gcc-ar-15.exe"
+      - "D:/cmake/cmake/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/gcc-ar-15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar15"
+      - "D:/vmware/bin/gcc-ar15.com"
+      - "D:/vmware/bin/gcc-ar15.exe"
+      - "D:/vmware/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "D:/git/Git/cmd/gcc-ar15.com"
+      - "D:/git/Git/cmd/gcc-ar15.exe"
+      - "D:/git/Git/cmd/gcc-ar15"
+      - "D:/cmake/cmake/bin/gcc-ar15.com"
+      - "D:/cmake/cmake/bin/gcc-ar15.exe"
+      - "D:/cmake/cmake/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/gcc-ar15.com"
+      - "D:/anaconda/anaconda/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/gcc-ar15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.1"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.1.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.1.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.1"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.1.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.1.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.1"
+      - "D:/vmware/bin/gcc-ranlib-15.1.com"
+      - "D:/vmware/bin/gcc-ranlib-15.1.exe"
+      - "D:/vmware/bin/gcc-ranlib-15.1"
+      - "C:/Windows/System32/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.1"
+      - "C:/Windows/gcc-ranlib-15.1.com"
+      - "C:/Windows/gcc-ranlib-15.1.exe"
+      - "C:/Windows/gcc-ranlib-15.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1"
+      - "D:/git/Git/cmd/gcc-ranlib-15.1.com"
+      - "D:/git/Git/cmd/gcc-ranlib-15.1.exe"
+      - "D:/git/Git/cmd/gcc-ranlib-15.1"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.1.com"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.1.exe"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.1"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.1.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.1.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.1"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15"
+      - "D:/vmware/bin/gcc-ranlib-15.com"
+      - "D:/vmware/bin/gcc-ranlib-15.exe"
+      - "D:/vmware/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "D:/git/Git/cmd/gcc-ranlib-15.com"
+      - "D:/git/Git/cmd/gcc-ranlib-15.exe"
+      - "D:/git/Git/cmd/gcc-ranlib-15"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.com"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.exe"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib15"
+      - "D:/vmware/bin/gcc-ranlib15.com"
+      - "D:/vmware/bin/gcc-ranlib15.exe"
+      - "D:/vmware/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "D:/git/Git/cmd/gcc-ranlib15.com"
+      - "D:/git/Git/cmd/gcc-ranlib15.exe"
+      - "D:/git/Git/cmd/gcc-ranlib15"
+      - "D:/cmake/cmake/bin/gcc-ranlib15.com"
+      - "D:/cmake/cmake/bin/gcc-ranlib15.exe"
+      - "D:/cmake/cmake/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/"
+    found: "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/MinGW/mingw/ucrt64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/project/cmake_learning/build/CMakeFiles/4.1.0-rc1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.1"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.1.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.1.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.1"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.1.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.1.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.1"
+      - "D:/vmware/bin/gcc-ar-15.1.com"
+      - "D:/vmware/bin/gcc-ar-15.1.exe"
+      - "D:/vmware/bin/gcc-ar-15.1"
+      - "C:/Windows/System32/gcc-ar-15.1.com"
+      - "C:/Windows/System32/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/gcc-ar-15.1"
+      - "C:/Windows/gcc-ar-15.1.com"
+      - "C:/Windows/gcc-ar-15.1.exe"
+      - "C:/Windows/gcc-ar-15.1"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.1"
+      - "D:/git/Git/cmd/gcc-ar-15.1.com"
+      - "D:/git/Git/cmd/gcc-ar-15.1.exe"
+      - "D:/git/Git/cmd/gcc-ar-15.1"
+      - "D:/cmake/cmake/bin/gcc-ar-15.1.com"
+      - "D:/cmake/cmake/bin/gcc-ar-15.1.exe"
+      - "D:/cmake/cmake/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.1"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.1.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.1.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.1"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.1"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.1.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.1.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.1"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar-15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar-15"
+      - "D:/vmware/bin/gcc-ar-15.com"
+      - "D:/vmware/bin/gcc-ar-15.exe"
+      - "D:/vmware/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "D:/git/Git/cmd/gcc-ar-15.com"
+      - "D:/git/Git/cmd/gcc-ar-15.exe"
+      - "D:/git/Git/cmd/gcc-ar-15"
+      - "D:/cmake/cmake/bin/gcc-ar-15.com"
+      - "D:/cmake/cmake/bin/gcc-ar-15.exe"
+      - "D:/cmake/cmake/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/gcc-ar-15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar-15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar-15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar-15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ar15"
+      - "D:/vmware/bin/gcc-ar15.com"
+      - "D:/vmware/bin/gcc-ar15.exe"
+      - "D:/vmware/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "D:/git/Git/cmd/gcc-ar15.com"
+      - "D:/git/Git/cmd/gcc-ar15.exe"
+      - "D:/git/Git/cmd/gcc-ar15"
+      - "D:/cmake/cmake/bin/gcc-ar15.com"
+      - "D:/cmake/cmake/bin/gcc-ar15.exe"
+      - "D:/cmake/cmake/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/gcc-ar15.com"
+      - "D:/anaconda/anaconda/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/gcc-ar15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ar15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ar15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ar15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ar.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.1"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.1.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.1.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.1"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.1.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.1.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.1"
+      - "D:/vmware/bin/gcc-ranlib-15.1.com"
+      - "D:/vmware/bin/gcc-ranlib-15.1.exe"
+      - "D:/vmware/bin/gcc-ranlib-15.1"
+      - "C:/Windows/System32/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.1"
+      - "C:/Windows/gcc-ranlib-15.1.com"
+      - "C:/Windows/gcc-ranlib-15.1.exe"
+      - "C:/Windows/gcc-ranlib-15.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.1"
+      - "D:/git/Git/cmd/gcc-ranlib-15.1.com"
+      - "D:/git/Git/cmd/gcc-ranlib-15.1.exe"
+      - "D:/git/Git/cmd/gcc-ranlib-15.1"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.1.com"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.1.exe"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.1"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.1.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.1.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.1"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.1"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.1.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.1.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.1"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib-15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib-15"
+      - "D:/vmware/bin/gcc-ranlib-15.com"
+      - "D:/vmware/bin/gcc-ranlib-15.exe"
+      - "D:/vmware/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "D:/git/Git/cmd/gcc-ranlib-15.com"
+      - "D:/git/Git/cmd/gcc-ranlib-15.exe"
+      - "D:/git/Git/cmd/gcc-ranlib-15"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.com"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15.exe"
+      - "D:/cmake/cmake/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib-15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib-15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib15.com"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib15.exe"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib15"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib15.com"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib15.exe"
+      - "D:/MinGW/mingw/usr/bin/gcc-ranlib15"
+      - "D:/vmware/bin/gcc-ranlib15.com"
+      - "D:/vmware/bin/gcc-ranlib15.exe"
+      - "D:/vmware/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "D:/git/Git/cmd/gcc-ranlib15.com"
+      - "D:/git/Git/cmd/gcc-ranlib15.exe"
+      - "D:/git/Git/cmd/gcc-ranlib15"
+      - "D:/cmake/cmake/bin/gcc-ranlib15.com"
+      - "D:/cmake/cmake/bin/gcc-ranlib15.exe"
+      - "D:/cmake/cmake/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Library/usr/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Library/bin/gcc-ranlib15"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib15.com"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib15.exe"
+      - "D:/anaconda/anaconda/Scripts/gcc-ranlib15"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "D:/vscode/Microsoft VS Code/bin/gcc-ranlib15"
+      - "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/usr/bin/"
+      - "D:/vmware/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/git/Git/cmd/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/anaconda/anaconda/"
+      - "D:/anaconda/anaconda/Library/mingw-w64/bin/"
+      - "D:/anaconda/anaconda/Library/usr/bin/"
+      - "D:/anaconda/anaconda/Library/bin/"
+      - "D:/anaconda/anaconda/Scripts/"
+      - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/vscode/Microsoft VS Code/bin/"
+      - "D:/MinGW/mingw/ucrt64/bin/"
+      - "D:/MinGW/mingw/ucrt64/sbin/"
+      - "D:/MinGW/mingw/ucrt64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/cmake/cmake/bin/"
+      - "D:/cmake/cmake/sbin/"
+      - "D:/cmake/cmake/"
+      - "C:/Program Files (x86)/Project/bin/"
+      - "C:/Program Files (x86)/Project/sbin/"
+      - "C:/Program Files (x86)/Project/"
+    searched_directories:
+      - "D:/MinGW/mingw/ucrt64/bin/windres.com"
+    found: "D:/MinGW/mingw/ucrt64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "D:/MinGW/mingw/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmake/cmake"
+        - "C:/Program Files (x86)/Project"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-6742yn"
+      binary: "D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-6742yn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-6742yn'
+        
+        Run Build Command(s): D:/cmake/cmake/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_dd48f/fast
+        D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dd48f.dir\\build.make CMakeFiles/cmTC_dd48f.dir/build
+        mingw32-make[1]: Entering directory 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-6742yn'
+        Building C object CMakeFiles/cmTC_dd48f.dir/CMakeCCompilerABI.c.obj
+        D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj -c D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dd48f.dir\\'
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1.exe -quiet -v -iprefix D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_dd48f.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\17869\\AppData\\Local\\Temp\\ccSCo4Pj.s
+        GNU C23 (Rev5, Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"
+        ignoring nonexistent directory "C:/a/msys64/ucrt64/include"
+        ignoring nonexistent directory "/ucrt64/include"
+        ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"
+        ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/a/msys64/ucrt64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 7e781975810fbc1e7c1fa8a722eca255
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dd48f.dir\\'
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\17869\\AppData\\Local\\Temp\\ccSCo4Pj.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_dd48f.exe
+        D:\\cmake\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_dd48f.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd48f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_dd48f.'
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\ccCTY45x.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_dd48f.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_dd48f.dir/objects.a --no-whole-archive --out-implib libcmTC_dd48f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        collect2 version 15.1.0
+        D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\ccCTY45x.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_dd48f.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_dd48f.dir/objects.a --no-whole-archive --out-implib libcmTC_dd48f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd48f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_dd48f.'
+        D:\\cmake\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_dd48f.dir/objects.a
+        D:\\MinGW\\mingw\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_dd48f.dir/objects.a @CMakeFiles\\cmTC_dd48f.dir\\objects1.rsp
+        D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_dd48f.dir/objects.a -Wl,--no-whole-archive -o cmTC_dd48f.exe -Wl,--out-implib,libcmTC_dd48f.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-6742yn'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        end of search list found
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include] ==> [D:/MinGW/mingw/ucrt64/include]
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        implicit include dirs: [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include;D:/MinGW/mingw/ucrt64/include;D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-6742yn']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/cmake/cmake/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_dd48f/fast]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dd48f.dir\\build.make CMakeFiles/cmTC_dd48f.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-6742yn']
+        ignore line: [Building C object CMakeFiles/cmTC_dd48f.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj -c D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dd48f.dir\\']
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1.exe -quiet -v -iprefix D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_dd48f.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\17869\\AppData\\Local\\Temp\\ccSCo4Pj.s]
+        ignore line: [GNU C23 (Rev5  Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/ucrt64/include"]
+        ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/ucrt64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 7e781975810fbc1e7c1fa8a722eca255]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dd48f.dir\\']
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\17869\\AppData\\Local\\Temp\\ccSCo4Pj.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_dd48f.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_dd48f.exe]
+        ignore line: [D:\\cmake\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_dd48f.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd48f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_dd48f.']
+        link line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\ccCTY45x.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_dd48f.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_dd48f.dir/objects.a --no-whole-archive --out-implib libcmTC_dd48f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\ccCTY45x.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_dd48f.exe] ==> ignore
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_dd48f.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_dd48f.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        ignore line: [collect2 version 15.1.0]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\ccCTY45x.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_dd48f.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_dd48f.dir/objects.a --no-whole-archive --out-implib libcmTC_dd48f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        linker tool for 'C': D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> [D:/MinGW/mingw/ucrt64/lib/crt2.o]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> [D:/MinGW/mingw/ucrt64/lib/default-manifest.o]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc] ==> [D:/MinGW/mingw/ucrt64/lib/gcc]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> [D:/MinGW/mingw/ucrt64/lib]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> [D:/MinGW/mingw/ucrt64/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [D:/MinGW/mingw/ucrt64/lib/crt2.o;D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;D:/MinGW/mingw/ucrt64/lib/default-manifest.o;D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0;D:/MinGW/mingw/ucrt64/lib/gcc;D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/lib;D:/MinGW/mingw/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-kpjcpo"
+      binary: "D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-kpjcpo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-kpjcpo'
+        
+        Run Build Command(s): D:/cmake/cmake/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_aa8e6/fast
+        D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_aa8e6.dir\\build.make CMakeFiles/cmTC_aa8e6.dir/build
+        mingw32-make[1]: Entering directory 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-kpjcpo'
+        Building CXX object CMakeFiles/cmTC_aa8e6.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\MinGW\\mingw\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_aa8e6.dir\\'
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_aa8e6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\17869\\AppData\\Local\\Temp\\ccNbAE8i.s
+        GNU C++17 (Rev5, Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0"
+        ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward"
+        ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"
+        ignoring nonexistent directory "C:/a/msys64/ucrt64/include"
+        ignoring nonexistent directory "/ucrt64/include"
+        ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"
+        ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/a/msys64/ucrt64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 38bb978cbac8ce31a14905c90ffc8790
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_aa8e6.dir\\'
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\17869\\AppData\\Local\\Temp\\ccNbAE8i.s
+        GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_aa8e6.exe
+        D:\\cmake\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_aa8e6.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (Rev5, Built by MSYS2 project) 
+        COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa8e6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_aa8e6.'
+         D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\cc8xUYat.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_aa8e6.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_aa8e6.dir/objects.a --no-whole-archive --out-implib libcmTC_aa8e6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        collect2 version 15.1.0
+        D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\cc8xUYat.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_aa8e6.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_aa8e6.dir/objects.a --no-whole-archive --out-implib libcmTC_aa8e6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa8e6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_aa8e6.'
+        D:\\cmake\\cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_aa8e6.dir/objects.a
+        D:\\MinGW\\mingw\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_aa8e6.dir/objects.a @CMakeFiles\\cmTC_aa8e6.dir\\objects1.rsp
+        D:\\MinGW\\mingw\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_aa8e6.dir/objects.a -Wl,--no-whole-archive -o cmTC_aa8e6.exe -Wl,--out-implib,libcmTC_aa8e6.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-kpjcpo'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0]
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32]
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward]
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+          add: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        end of search list found
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0] ==> [D:/MinGW/mingw/ucrt64/include/c++/15.1.0]
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32] ==> [D:/MinGW/mingw/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32]
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward] ==> [D:/MinGW/mingw/ucrt64/include/c++/15.1.0/backward]
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include] ==> [D:/MinGW/mingw/ucrt64/include]
+        collapse include dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        implicit include dirs: [D:/MinGW/mingw/ucrt64/include/c++/15.1.0;D:/MinGW/mingw/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32;D:/MinGW/mingw/ucrt64/include/c++/15.1.0/backward;D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include;D:/MinGW/mingw/ucrt64/include;D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-kpjcpo']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/cmake/cmake/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_aa8e6/fast]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_aa8e6.dir\\build.make CMakeFiles/cmTC_aa8e6.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/project/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-kpjcpo']
+        ignore line: [Building CXX object CMakeFiles/cmTC_aa8e6.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\MinGW\\mingw\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_aa8e6.dir\\']
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/ -D_REENTRANT D:\\cmake\\cmake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_aa8e6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\17869\\AppData\\Local\\Temp\\ccNbAE8i.s]
+        ignore line: [GNU C++17 (Rev5  Built by MSYS2 project) version 15.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/ucrt64/include"]
+        ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "D:/MinGW/mingw/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/a/msys64/ucrt64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/x86_64-w64-mingw32]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include/c++/15.1.0/backward]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../include]
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38bb978cbac8ce31a14905c90ffc8790]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_aa8e6.dir\\']
+        ignore line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\17869\\AppData\\Local\\Temp\\ccNbAE8i.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_aa8e6.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_aa8e6.exe]
+        ignore line: [D:\\cmake\\cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_aa8e6.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\mingw\\ucrt64\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa8e6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_aa8e6.']
+        link line: [ D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\cc8xUYat.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_aa8e6.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_aa8e6.dir/objects.a --no-whole-archive --out-implib libcmTC_aa8e6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\cc8xUYat.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_aa8e6.exe] ==> ignore
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_aa8e6.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_aa8e6.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o]
+          arg [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        ignore line: [collect2 version 15.1.0]
+        ignore line: [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/liblto_plugin.dll -plugin-opt=D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\17869\\AppData\\Local\\Temp\\cc8xUYat.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_aa8e6.exe D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0 -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_aa8e6.dir/objects.a --no-whole-archive --out-implib libcmTC_aa8e6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        linker tool for 'CXX': D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/crt2.o] ==> [D:/MinGW/mingw/ucrt64/lib/crt2.o]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib/default-manifest.o] ==> [D:/MinGW/mingw/ucrt64/lib/default-manifest.o]
+        collapse obj [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0] ==> [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc] ==> [D:/MinGW/mingw/ucrt64/lib/gcc]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../lib] ==> [D:/MinGW/mingw/ucrt64/lib]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/MinGW/mingw/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../..] ==> [D:/MinGW/mingw/ucrt64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;mingwex;kernel32]
+        implicit objs: [D:/MinGW/mingw/ucrt64/lib/crt2.o;D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;D:/MinGW/mingw/ucrt64/lib/default-manifest.o;D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [D:/MinGW/mingw/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0;D:/MinGW/mingw/ucrt64/lib/gcc;D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/lib;D:/MinGW/mingw/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/cmake/cmake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "D:/MinGW/mingw/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.44
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:12 (find_package)"
+    name: "Eigen3"
+    configs:
+      -
+        filename: "Eigen3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "eigen3-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "3.4"
+      version_complete: "3.4"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Eigen3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/project/cmake_learning/build/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/project/cmake_learning/build/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/ucrt64/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/ucrt64/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/usr/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/usr/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vmware/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vmware/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/git/Git/cmd/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/git/Git/cmd/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/cmake/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/cmake/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/cmake/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/cmake/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Scripts/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Scripts/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vscode/Microsoft VS Code/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vscode/Microsoft VS Code/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/vscode/eigen/eigen-3.4.0/eigen-3.4.0/build/Eigen3Config.cmake"
+      mode: "config"
+      version: "3.4.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/eigen3_installed"
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/anaconda/anaconda"
+        - "D:\\anaconda\\anaconda\\Library\\mingw-w64\\bin"
+        - "D:/anaconda/anaconda/Library/usr/bin"
+        - "D:\\anaconda\\anaconda\\Library\\bin"
+        - "D:/anaconda/anaconda/Scripts"
+        - "C:\\Users\\17869\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:/vscode/Microsoft VS Code/bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "D:/MinGW/mingw/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmake/cmake"
+        - "C:/Program Files (x86)/Project"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:12 (find_package)"
+    name: "orocos_kdl"
+    configs:
+      -
+        filename: "orocos_kdlConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "orocos_kdl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "orocos_kdl"
+      search_paths:
+        - "D:/orocos_install/share/orocos_kdl/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/project/cmake_learning/build/CMakeFiles/pkgRedirects/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/project/cmake_learning/build/CMakeFiles/pkgRedirects/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vscode/eigen/eigen/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vscode/eigen/eigen/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/ucrt64/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/ucrt64/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/usr/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/MinGW/mingw/usr/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vmware/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vmware/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/git/Git/cmd/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/git/Git/cmd/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/cmake/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmake/cmake/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/cmake/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Library/cmake/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Scripts/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/anaconda/anaconda/Scripts/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/17869/AppData/Local/Microsoft/WindowsApps/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vscode/Microsoft VS Code/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vscode/Microsoft VS Code/orocos_kdl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/vscode/KDL/orocos/orocos_kdl/build/orocos_kdlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "D:/vscode/KDL/orocos/orocos_kdl/build/orocos_kdl-config.cmake"
+      mode: "config"
+      version: "1.5.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/vscode/eigen/eigen"
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/vscode/eigen/eigen"
+        - "D:\\anaconda\\anaconda"
+        - "D:/anaconda/anaconda/Library/mingw-w64/bin"
+        - "D:\\anaconda\\anaconda\\Library\\usr\\bin"
+        - "D:/anaconda/anaconda/Library/bin"
+        - "D:\\anaconda\\anaconda\\Scripts"
+        - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:/MinGW/mingw/ucrt64/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "D:/MinGW/mingw/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmake/cmake"
+        - "C:/Program Files (x86)/Project"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:17 (find_library)"
+    mode: "library"
+    variable: "KDL_LIBRARIES"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "orocos-kdl"
+      - "kdl"
+    candidate_directories:
+      - "D:/vscode/KDL/orocos_cmake/lib/"
+    found: "D:/vscode/KDL/orocos_cmake/lib/liborocos-kdl.dll.a"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:/vscode/eigen/eigen"
+      ENV{PATH}:
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\ucrt64\\bin"
+        - "D:\\MinGW\\mingw\\usr\\bin"
+        - "D:/vmware/bin/"
+        - "C:\\Windows\\system32"
+        - "C:/Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "D:/git/Git/cmd"
+        - "D:\\cmake\\cmake\\bin"
+        - "D:/vscode/eigen/eigen"
+        - "D:\\anaconda\\anaconda"
+        - "D:/anaconda/anaconda/Library/mingw-w64/bin"
+        - "D:\\anaconda\\anaconda\\Library\\usr\\bin"
+        - "D:/anaconda/anaconda/Library/bin"
+        - "D:\\anaconda\\anaconda\\Scripts"
+        - "C:/Users/17869/AppData/Local/Microsoft/WindowsApps"
+        - "D:\\vscode\\Microsoft VS Code\\bin"
+        - "D:/MinGW/mingw/ucrt64/bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "D:/MinGW/mingw/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmake/cmake"
+        - "C:/Program Files (x86)/Project"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/Project/bin"
+        - "D:/cmake/cmake/bin"
+        - "/bin"
+...

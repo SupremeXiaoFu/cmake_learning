@@ -86,6 +86,12 @@
         "splines": "cpp",
         "dense": "cpp",
         "eigen": "cpp",
-        "valarray": "cpp"
-    }
+        "valarray": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "hash_map": "cpp",
+        "concepts": "cpp"
+    },
+    "commentTranslate.targetLanguage": "zh-CN"
 }

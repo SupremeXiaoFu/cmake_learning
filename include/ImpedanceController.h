@@ -62,8 +62,10 @@ protected:
 
   bool bNullspaceControl;
 
+  //e_Kp 刚度系数、e_Kd 阻尼系数
+  // e_curr_pos, e_des_pos， e_curr_orient, e_des_orient 当前位置、期望位置、当前姿态、期望姿态
 
-  KDL::Chain kdl_chain;
+  KDL::Chain kdl_chain;  //机器人链
   Eigen::Vector3d e_curr_pos, e_des_pos, e_err_axis, e_curr_pos_dot, e_prev_pos, e_prev_des_pos, e_des_pos_dot;
   Eigen::Matrix3d e_curr_orient, e_des_orient, e_temp3x3, e_err_orient;
   Eigen::Matrix<double, 6, 6> e_Kp, e_Kd;

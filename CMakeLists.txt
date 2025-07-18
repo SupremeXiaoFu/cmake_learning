@@ -31,11 +31,23 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
+# aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
 
-add_executable(hello_world ${SRC_LIST})
+# add_executable(hello_world ${SRC_LIST})
 
-# 链接Eigen3库
-target_link_libraries(hello_world Eigen3::Eigen)
-# 链接KDL库
-target_link_libraries(hello_world ${KDL_LIBRARIES})
+# # 链接Eigen3库
+# target_link_libraries(hello_world Eigen3::Eigen)
+# # 链接KDL库
+# target_link_libraries(hello_world ${KDL_LIBRARIES})
+
+
+
+# 创建hello可执行程序
+add_executable(hello ${PROJECT_SOURCE_DIR}/src/hello.cpp)
+target_link_libraries(hello Eigen3::Eigen)
+target_link_libraries(hello ${KDL_LIBRARIES})
+
+# 创建impedanceController可执行程序
+add_executable(impedanceController ${PROJECT_SOURCE_DIR}/src/impedanceController.cpp)
+target_link_libraries(impedanceController Eigen3::Eigen)
+target_link_libraries(impedanceController ${KDL_LIBRARIES})

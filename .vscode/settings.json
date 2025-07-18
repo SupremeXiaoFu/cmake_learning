@@ -84,6 +84,8 @@
         "sparseextra": "cpp",
         "specialfunctions": "cpp",
         "splines": "cpp",
-        "dense": "cpp"
+        "dense": "cpp",
+        "eigen": "cpp",
+        "valarray": "cpp"
     }
 }
